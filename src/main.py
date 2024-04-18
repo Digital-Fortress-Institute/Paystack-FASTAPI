@@ -32,3 +32,5 @@ def pay(data : Data):
     checkout = Paystack(Email, Amount, sk)
     response = checkout.pay()
     return response
+
+

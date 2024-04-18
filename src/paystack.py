@@ -3,8 +3,7 @@ import requests
 from dotenv import load_dotenv
 
 
-# load_dotenv()
-# sk = os.environ.get("secrete_key")
+
 
 class Paystack:
     def __init__(self, email, amount, key):
