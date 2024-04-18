@@ -35,10 +35,3 @@ class Paystack:
             return result
         return "404"
     
-# {
-#   "email": "davidoiekunle@gmail.com",
-#   "amount": 40000
-# }
-
-# test = Paystack("davidoiekunle@gmail.com", 40000, sk)
-# print(test.pay())
